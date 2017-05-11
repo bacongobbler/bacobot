@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/bacongobbler/bacobot/issues"
   },
-  "homepage": "https://github.com/bacongobbler/bacobot#readme"
+  "homepage": "https://github.com/bacongobbler/bacobot#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
 }
