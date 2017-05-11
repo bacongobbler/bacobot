@@ -1,0 +1,25 @@
+{
+  "name": "bacobot",
+  "version": "0.1.0",
+  "description": "A Slack bot specifically tailored to run on top of Microsoft Azure Functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacongobbler/bacobot.git"
+  },
+  "keywords": [
+    "slack",
+    "azure",
+    "functions",
+    "serverless"
+  ],
+  "author": "Matthew Fisher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bacongobbler/bacobot/issues"
+  },
+  "homepage": "https://github.com/bacongobbler/bacobot#readme"
+}
