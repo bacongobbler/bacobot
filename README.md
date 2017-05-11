@@ -10,3 +10,18 @@ A Slack bot specifically tailored to run on top of Microsoft Azure Functions.
 ```
 az functionapp deployment source config --name <appname> --resource-group <rgname> --repo-url https://github.com/bacongobbler/bacobot --branch master --manual-integration
 ```
+
+3. Create a Slack webhook URL using https://my.slack.com/services/new/incoming-webhook
+4. POST to the function app with the following body
+
+```
+{
+    "channel": "<channel>",
+    "username": "<botname>",
+    "text": "Hello, World!",
+    "icon_url": "",
+    "icon_emoji": ":lightning_cloud:",
+    "fallback": "Upgrade your client",
+    "notifications": []
+}
+```
